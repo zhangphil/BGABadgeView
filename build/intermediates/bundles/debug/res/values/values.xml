@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BGABadgeView"><attr format="reference|color" name="badge_bgColor"/><attr format="reference|color" name="badge_textColor"/><attr format="reference|dimension" name="badge_textSize"/><attr format="reference|dimension" name="badge_verticalMargin"/><attr format="reference|dimension" name="badge_horizontalMargin"/><attr format="reference|dimension" name="badge_padding"/><attr format="enum" name="badge_gravity"><enum name="rightTop" value="0"/><enum name="rightCenter" value="1"/><enum name="rightBottom" value="2"/></attr><attr format="boolean" name="badge_dragable"/><attr format="boolean" name="badge_isResumeTravel"/><attr format="reference|dimension" name="badge_borderWidth"/><attr format="reference|color" name="badge_borderColor"/><attr format="reference|dimension" name="badge_dragExtra"/></declare-styleable>
+</resources>

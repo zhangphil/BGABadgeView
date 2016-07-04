@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\developer\code\Demo\library\src\main\res"/><source path="C:\developer\code\Demo\library\build\generated\res\rs\debug"/><source path="C:\developer\code\Demo\library\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\developer\code\Demo\library\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\developer\code\Demo\library\src\main\res"><file path="C:\developer\code\Demo\library\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="BGABadgeView">
+        <!-- 徽章背景色 -->
+        <attr format="reference|color" name="badge_bgColor"/>
+        <!-- 徽章文本的颜色 -->
+        <attr format="reference|color" name="badge_textColor"/>
+        <!-- 徽章文本字体大小 -->
+        <attr format="reference|dimension" name="badge_textSize"/>
+        <!-- 徽章背景与宿主控件上下边缘间距离 -->
+        <attr format="reference|dimension" name="badge_verticalMargin"/>
+        <!-- 徽章背景与宿主控件左右边缘间距离 -->
+        <attr format="reference|dimension" name="badge_horizontalMargin"/>
+        <!-- 徽章文本边缘与徽章背景边缘间的距离 -->
+        <attr format="reference|dimension" name="badge_padding"/>
+        <!-- 徽章在宿主控件中的位置 -->
+        <attr format="enum" name="badge_gravity">
+            <enum name="rightTop" value="0"/>
+            <enum name="rightCenter" value="1"/>
+            <enum name="rightBottom" value="2"/>
+        </attr>
+        <!-- 是否可以拖拽删除徽章 -->
+        <attr format="boolean" name="badge_dragable"/>
+        <!-- 拖拽徽章超出轨迹范围后，再次放回到轨迹范围时，是否恢复轨迹 -->
+        <attr format="boolean" name="badge_isResumeTravel"/>
+        <!-- 徽章描边宽度 -->
+        <attr format="reference|dimension" name="badge_borderWidth"/>
+        <!-- 徽章描边颜色 -->
+        <attr format="reference|color" name="badge_borderColor"/>
+        <!-- 触发开始拖拽徽章事件的扩展触摸距离 -->
+        <attr format="reference|dimension" name="badge_dragExtra"/>
+    </declare-styleable></file></source><source path="C:\developer\code\Demo\library\build\generated\res\rs\debug"/><source path="C:\developer\code\Demo\library\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\developer\code\Demo\library\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="BGABadgeView"><attr format="reference|color" name="badge_bgColor"/><attr format="reference|color" name="badge_textColor"/><attr format="reference|dimension" name="badge_textSize"/><attr format="reference|dimension" name="badge_verticalMargin"/><attr format="reference|dimension" name="badge_horizontalMargin"/><attr format="reference|dimension" name="badge_padding"/><attr format="enum" name="badge_gravity"><enum name="rightTop" value="0"/><enum name="rightCenter" value="1"/><enum name="rightBottom" value="2"/></attr><attr format="boolean" name="badge_dragable"/><attr format="boolean" name="badge_isResumeTravel"/><attr format="reference|dimension" name="badge_borderWidth"/><attr format="reference|color" name="badge_borderColor"/><attr format="reference|dimension" name="badge_dragExtra"/></declare-styleable></configuration></mergedItems></merger>
